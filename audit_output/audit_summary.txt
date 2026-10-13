@@ -1,0 +1,30 @@
+SHOP-THE-LOOK DATA AUDIT
+============================
+Catalog rows: 50,000
+Unique nonblank catalog product IDs: 28,094
+Duplicate catalog rows beyond first occurrence: 21,906
+Catalog IDs occurring more than once: 7,647
+Blank catalog product IDs: 0
+
+Validation rows: 330
+Unique validation scenes: 321
+Unique validation products: 206
+Unique scene-product pairs: 330
+Duplicate validation pairs beyond first occurrence: 0
+Validation rows whose product is in catalog: 288
+Validation rows whose product is missing from catalog: 42
+Unique validation products missing from catalog: 41
+Scenes associated with multiple products: 8
+Products associated with multiple scenes: 44
+Malformed catalog JSONL lines: 0
+Malformed validation JSONL lines: 0
+
+Image check mode: sample
+Pillow available: True
+Image check elapsed: 1.59 seconds
+Product images checked: 100; success: 100; HTTP failures: 0; connection failures: 0; non-image: 0; corrupt: 0
+Scene images checked: 100; success: 100; HTTP failures: 0; connection failures: 0; non-image: 0; corrupt: 0
+
+Detailed report: audit_output/audit_report.json
+Validation associations: audit_output/validation_associations.json
+Image check details: audit_output/image_check_details.json

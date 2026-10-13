@@ -1,0 +1,31 @@
+{
+  "input_file": "dataset/product_catelog.jsonl",
+  "total_source_lines": 50000,
+  "valid_rows": 50000,
+  "unique_valid_product_ids": 28094,
+  "duplicate_groups": 7647,
+  "duplicate_occurrences_beyond_first": 21906,
+  "invalid_record_counts_by_reason": {
+    "malformed_json": 0,
+    "non_object_record": 0,
+    "missing_product": 0,
+    "non_string_product": 0,
+    "blank_product": 0,
+    "blank_line": 0
+  },
+  "invalid_source_lines_by_reason": {
+    "malformed_json": [],
+    "non_object_record": [],
+    "missing_product": [],
+    "non_string_product": [],
+    "blank_product": [],
+    "blank_line": []
+  },
+  "canonical_output_row_count": 28094,
+  "output_paths": {
+    "canonical_catalog": "audit_output/canonical_catalog.jsonl",
+    "duplicate_groups": "audit_output/duplicate_groups.json",
+    "report": "audit_output/catalog_deduplication_report.json"
+  },
+  "execution_status": "success"
+}

@@ -1,0 +1,15 @@
+# Direct model runtime pins validated by the FashionSigLIP CPU smoke test.
+# For the full resolved environment, use requirements-model.lock.
+torch==2.7.1
+torchvision==0.22.1
+transformers==4.46.3
+tokenizers==0.20.3
+open_clip_torch==3.3.0
+huggingface_hub==0.33.4
+safetensors==0.6.2
+ftfy==6.3.1
+Pillow==12.3.0
+numpy==2.4.6
+faiss-cpu==1.15.1
+# Streamlit frontend runtime. Model/retrieval dependencies are pinned separately.
+streamlit==1.65.0
